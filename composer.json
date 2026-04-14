@@ -1,0 +1,32 @@
+{
+    "name": "vicistack/vicidial-hosted-migration-checklist",
+    "description": "VICIdial to Hosted Migration Checklist: Step-by-Step Guide",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "vicidial",
+        "hosted",
+        "migration",
+        "checklist"
+    ],
+    "homepage": "https://vicistack.com/blog/vicidial-hosted-migration-checklist/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\VicidialHostedMigrationChecklist\\": "src/"
+        }
+    }
+}
